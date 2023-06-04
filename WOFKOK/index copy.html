@@ -28,12 +28,13 @@
       }
 
       body {
-        background-color: rgb(207, 180, 180);
+        background: url(images/front.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
         height: 100%;
         width: 99%;
+        background-position: center;
       }
       .container {
         margin-inline: auto;
@@ -51,9 +52,12 @@
       h2 {
         text-align: center;
         font-family: "Bebas Neue", sans-serif;
-        color: rgb(68, 68, 68);
+        color: rgb(209, 209, 209);
         font-size: 2.5rem;
         padding-top: 0rem;
+        background-color: rgba(0, 0, 0, 0.384);
+        margin-left: 25%;
+        margin-right: 25%;
       }
       img {
         position: absolute;
@@ -94,10 +98,67 @@
       }
       .sub {
         position: absolute;
-        top: 38%;
+        top: 32%;
         left: 50%;
         color: rgb(43, 107, 226);
+        margin-left: 0%;
+        margin-right: 0%;
+        background: none;
       }
+      @media screen and (max-width: 700px) and (min-width: 400px) {
+        h2{
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+       body{
+        background: url(images/mfront.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -50%;
+        background-size: 120%;
+        
+       } 
+      }
+      @media screen and (max-width: 600px) and (min-width: 400px) {
+        h2{
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+       body{
+        background: url(images/mfront.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -25%;
+        background-size: 200%;
+       } 
+       h1{
+        font-size: 7rem;
+       }
+       .sub{
+        top: 27%;
+       }
+      }
+      @media screen and (max-width: 400px) {
+        h2{
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+       body{
+        background: url(images/mfront.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -50%;
+        background-size: 250%;
+
+        }
+        h1{
+          font-size: 7rem;
+        }
+        .sub{
+        top: 27%;
+       }
+       } 
+      
     </style>
   </head>
   <body>
@@ -119,11 +180,7 @@
     <container>
       <h2>
         <br />
-        Wereld Organisatie Voor Klappen Op Kanis
-      </h2>
-    </container>
-    <div class="container">
-      <h2>
+        Wereld Organisatie Voor Klappen Op Kanis <br><br>
         Hier bij de WOFKOK nemen wij onze taak zeer serieus <br />
         en willen wij u de hoogste kwaliteit service bezorgen <br />
         <br />
